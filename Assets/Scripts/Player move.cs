@@ -22,7 +22,7 @@ public class Playermove : MonoBehaviour
         {
             transform.Translate(speed, 0, 0);
         }
-         if(Input.GetKey(KeyCode.UpArrow))
+         if(Input.GetKey(KeyCode.Space))
         {
             transform.Translate(0, speed, 0);
         }
